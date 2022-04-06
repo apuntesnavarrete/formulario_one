@@ -113,3 +113,17 @@ body{
     cursor: pointer;
     color: #222;
 }
+.sign-in {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+}
+.sign-in.active{
+    opacity: 1;
+    visibility: visible;
+}
+.sign-up.active{
+    opacity: 0;
+    visibility: hidden;
+}
+
